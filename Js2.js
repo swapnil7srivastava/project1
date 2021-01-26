@@ -1,5 +1,5 @@
 var ii=document.getElementById("output1");
-ii.innerHTML="Current Price";
+ii.innerHTML="STOCK";
 var iii=document.getElementById("output2");
 iii.innerHTML="USD to INR";
 
