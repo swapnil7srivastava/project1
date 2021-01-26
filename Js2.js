@@ -1,5 +1,5 @@
 var ii=document.getElementById("output1");
-ii.innerHTML="Stock Price";
+ii.innerHTML="Current Price";
 var iii=document.getElementById("output2");
 iii.innerHTML="USD to INR";
 
@@ -89,4 +89,4 @@ var j = setInterval(async () => {
         iii.innerHTML="1 USD= " +z2+ " INR";
       })
       .catch((err) => console.log(err.message));
-  }, 5000);
+  }, 2000);
