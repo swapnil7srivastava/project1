@@ -89,4 +89,4 @@ var j = setInterval(async () => {
         iii.innerHTML="1 USD= " +z2+ " INR";
       })
       .catch((err) => console.log(err.message));
-  }, 2000);
+  }, 5000);
